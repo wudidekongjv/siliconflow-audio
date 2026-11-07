@@ -3,12 +3,14 @@
 无限画布的第三方节点插件。把画布里的音频送到
 `POST https://api.siliconflow.cn/v1/audio/transcriptions`，转写结果落成文本节点。
 
+仓库：https://github.com/wudidekongjv/siliconflow-audio
+
 ## 安装
 
 画布 → 设置 → 节点插件 → 第三方 → 填入：
 
 ```
-https://cdn.jsdelivr.net/gh/wudidekongjv/infinite-canvas-sketchup-director-plugin@main/plugins/siliconflow-asr/dist/sf-asr.js
+https://cdn.jsdelivr.net/gh/wudidekongjv/siliconflow-audio@main/dist/sf-asr.js
 ```
 
 装完在节点菜单里能看到「语音转文字」。
